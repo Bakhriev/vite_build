@@ -1,9 +1,17 @@
 import { defineConfig } from "vite";
+
 import { viteStaticCopy } from "vite-plugin-static-copy";
+
 import stylelint from "vite-plugin-stylelint";
 
 export default defineConfig({
 	plugins: [
+		stylelint({
+			fix: true,
+			include: ["./src/assets/**/*.{css,scss}"],
+			cache: false,
+		}),
+
 		viteStaticCopy({
 			targets: [
 				{
@@ -32,6 +40,5 @@ export default defineConfig({
 				},
 			],
 		}),
-		stylelint({ fix: true }),
 	],
 });
