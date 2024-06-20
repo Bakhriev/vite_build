@@ -1,4 +1,4 @@
-# Installation
+# Install (yarn or npm)
 
 ```bash
   yarn

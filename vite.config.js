@@ -6,12 +6,12 @@ export default defineConfig({
 		viteStaticCopy({
 			targets: [
 				{
-					src: "src/assets/fonts/**/*.{ttf,woff,woff2}",
+					src: "src/assets/fonts/**/*",
 					dest: "assets/fonts",
 				},
 
 				{
-					src: "src/assets/img/**/*.{jpeg,jpg,png,webp,gif}",
+					src: "src/assets/img/**/*.{jpeg,jpg,png,webp,gif,avif}",
 					dest: "assets/img",
 				},
 
@@ -26,7 +26,7 @@ export default defineConfig({
 				},
 
 				{
-					src: "src/assets/video/**/*.{mp4,webm}",
+					src: "src/assets/video/**/*",
 					dest: "assets/video",
 				},
 			],
