@@ -1,25 +1,49 @@
 # Install (yarn or npm)
 
 ```bash
-  yarn
+yarn
+```
+
+or
+
+```bash
+npm i
 ```
 
 ## Dev
 
 ```bash
-  yarn dev
+yarn dev
+```
+
+or
+
+```bash
+npm run dev
 ```
 
 ## Build
 
 ```bash
-  yarn build
+yarn build
+```
+
+or
+
+```bash
+npm run build
 ```
 
 ## Preview
 
 ```bash
-  yarn preview
+yarn preview
+```
+
+or
+
+```bash
+npm run preview
 ```
 
     dist
