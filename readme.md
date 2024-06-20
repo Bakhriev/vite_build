@@ -32,3 +32,7 @@ yarn preview
     ├── .index-(hash).css
     ├── .index-(hash).js
     └── all files from public ( favicon )
+
+## Stylelint startup delay
+
+In some cases, Stylelint may start with a delay of 20-30 seconds after the dev script is started. This can be caused by several reasons:
