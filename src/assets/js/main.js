@@ -1,3 +1,1 @@
-import '../scss/main.scss';
-
-import './functions/func1';
+import "../scss/main.scss";

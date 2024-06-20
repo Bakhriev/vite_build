@@ -9,7 +9,6 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"postcss": "^8.4.29",
 		"prettier": "^3.3.2",
 		"sass": "^1.77.6",
 		"vite": "^5.2.0",

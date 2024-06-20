@@ -9,9 +9,10 @@
 @import "./helpers/vars";
 @import "./helpers/mixins";
 @import "./helpers/utils";
+
 @import "./helpers/global";
 
-.a {
-	color: red;
-	display: flex;
-}
+// components
+
+@import "./components/header";
+@import "./components/footer";
