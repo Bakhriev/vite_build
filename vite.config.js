@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
+import stylelint from "vite-plugin-stylelint";
 
 export default defineConfig({
 	plugins: [
@@ -31,5 +32,6 @@ export default defineConfig({
 				},
 			],
 		}),
+		stylelint({ fix: true }),
 	],
 });

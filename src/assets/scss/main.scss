@@ -14,3 +14,14 @@
 // components
 @import "./components/header";
 @import "./components/footer";
+
+.a {
+	position: relative;
+	top: 0;
+
+	display: flex;
+
+	color: red;
+
+	background-color: red;
+}
