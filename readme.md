@@ -1,25 +1,25 @@
 # Installation
 
 ```bash
-  yarn || npm
+  yarn
 ```
 
 ## Dev
 
 ```bash
-  yarn dev || npm run dev
+  yarn dev
 ```
 
 ## Build
 
 ```bash
-  yarn build || npm run build
+  yarn build
 ```
 
 ## Preview
 
 ```bash
-  yarn preview || npm run preview
+  yarn preview
 ```
 
     dist
