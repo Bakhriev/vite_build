@@ -4,22 +4,10 @@
 yarn
 ```
 
-or
-
-```bash
-npm i
-```
-
 ## Dev
 
 ```bash
 yarn dev
-```
-
-or
-
-```bash
-npm run dev
 ```
 
 ## Build
@@ -28,22 +16,10 @@ npm run dev
 yarn build
 ```
 
-or
-
-```bash
-npm run build
-```
-
 ## Preview
 
 ```bash
 yarn preview
-```
-
-or
-
-```bash
-npm run preview
 ```
 
     dist
