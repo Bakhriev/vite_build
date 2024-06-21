@@ -9,13 +9,12 @@ export default defineConfig({
 		stylelint({
 			fix: true,
 			include: ["./src/assets/**/*.{css,scss}"],
-			cache: false,
 		}),
 
 		viteStaticCopy({
 			targets: [
 				{
-					src: "src/assets/fonts/**/*",
+					src: "src/assets/fonts/**/*.{ttf,otf,woff,woff2}",
 					dest: "assets/fonts",
 				},
 
@@ -35,7 +34,7 @@ export default defineConfig({
 				},
 
 				{
-					src: "src/assets/video/**/*",
+					src: "src/assets/video/**/*.{mp4, avi, WebM}",
 					dest: "assets/video",
 				},
 			],
